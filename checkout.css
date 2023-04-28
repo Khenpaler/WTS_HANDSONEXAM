@@ -1,0 +1,142 @@
+.checkout_page {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.container1 {
+    height: 600px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 10%;
+    margin: 20px;
+    border-radius: 10px;
+    border-style: outset;
+}
+
+.container1 .ball {
+    display: flex;
+    justify-content: center;
+}
+
+.container1 img {
+    width: 200px;
+    height: 200px;
+}
+
+.container1 h1 {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.container1 h3 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.container1 h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container1 p {
+    text-align: left;
+    margin-left: 80px;
+    font-size: 15px;
+    font-weight: 100px;
+}
+
+.container1 p span {
+    font-weight: 900;
+}
+
+.container1 p {
+    text-align: left;
+    margin-left: 80px;
+    font-size: 20px;
+    font-weight: none;
+}
+
+.container1 span {
+    font-weight: 900;
+}
+
+.container1 .SA_button {    
+    text-align: center;
+}
+
+.container1 .button_submit {
+    text-align: center;
+}
+
+
+
+
+.container2 {
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 10%;
+    margin: 20px;
+    border-radius: 10px;
+    border-style: outset;
+}
+
+.container2 .ball {
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+}
+
+.container2 img {
+    width: 200px;
+    height: 200px;
+}
+
+.container2 h1 {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.container2 h2 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 100px;
+    margin-left: 100px;
+}
+
+.container2 .price{
+    margin-left: 50px;
+    font-weight: 100;
+}
+
+.container2 .quantity{
+    margin-left: 50px;
+    font-weight: 100;
+}
+
+.container2 .shipping_fee{
+    margin-left: 50px;
+    font-weight: 100;
+}
+
+.container2 .total{
+    margin-left: 50px;
+    font-weight: 100;
+}
+
+
+

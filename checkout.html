@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="checkout.css">
+  <script src="script.js"></script>
+  <title>Checkout Page</title>
+</head>
+<body>
+  <main class="wrapper">
+
+    <div id="checkout_page" class="checkout_page">
+        
+        <div class="container1" >
+            <h1>PRODUCT DETAILS</h1>
+            <div class="ball">
+              <img class="" src="spalding.jpg" alt="">
+            </div>
+            <h3>SPALDING NBA OFFICIAL GAME BALL BASKETBALL</h3>
+            <h2>P500</h2>
+            <p>Shipping To: <span>Cagayan de Oro City</span></p>
+               <p>Shipping Fee: <span>P 50.00</span></p>
+
+               <p>Quantity: <span id="quantity">1</span></p>
+
+               <div class="SA_button">
+                <button onclick="subQuantity()">-</button>
+                <button onclick="addQuantity()">+</button>
+               </div>
+               
+        </div>
+
+        <div class="container1" >
+          <h1>READY TO CHECKOUT?</h1>
+          <p>Subtotal: <span id="subtotal">P500</span></p>
+            <p>Quantity: <span id="qty">1</span></p>
+            <p>Stocks: <span id="stocks">9</span></p>
+            <p>Shipping Fee: <span id="shipping">P50</span></p>
+            <p class="red">Total: <span id="total">P550</span></p>
+            <div class="button_submit">
+              <a href="#receipt_page    ">
+                <button onclick="receipt()">Checkout</button>
+              </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="receipt_page" class="receipt_page" style="display: none;">
+      <div class="container2">
+        <h1>Your Order</h1>
+        <div class="ball">
+          <img class="" src="spalding.jpg" alt="">
+          <h2>SPALDING NBA OFFICIAL GAME BALL BASKETBALL
+          <br><br> <span class="price">Price:</span> P500
+          <br><br> <span class="quantity">Quantity:</span>  <span id="check-qty">1</span>
+
+          <br><br> <span class="shipping_fee">Shipping Fee:</span> <span id="shipping">P50</span>
+
+          <br><br><br> <span class="total">Total:</span> <span id="check-total">P500</span> </h2>
+        </div>
+    </div>
+    </div>
+    
+  </main>
+
+</body>
+</html>
